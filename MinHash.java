@@ -16,7 +16,7 @@ public class MinHash {
         Random r = new Random(System.currentTimeMillis());
 
         long[]  seeds= getHash(r,numHash);
-        
+
         int j = 0;
 
         for (int i = 0; i < numHash; i++){
